@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="hbkbTFb1UtOCh1xmpU7m">
+    <mxGraphModel dx="487" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-1" target="mK9y2rGnFo_aOep1cBnS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-2" target="mK9y2rGnFo_aOep1cBnS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-2" value="Mostrar mensaje: &quot;Por favor, ingrese la edad del cliente: &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FAFF6B;" vertex="1" parent="1">
+          <mxGeometry x="195" y="190" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-4" target="mK9y2rGnFo_aOep1cBnS-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-10" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mK9y2rGnFo_aOep1cBnS-7">
+          <mxGeometry x="-0.4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-4" target="mK9y2rGnFo_aOep1cBnS-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="547.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-11" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mK9y2rGnFo_aOep1cBnS-9">
+          <mxGeometry x="-0.2889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-4" value="Si edad &amp;gt;= 18" style="rhombus;whiteSpace=wrap;html=1;fillColor=#3BAFCC;" vertex="1" parent="1">
+          <mxGeometry x="230" y="365" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-15" target="mK9y2rGnFo_aOep1cBnS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-15" value="Mostrar mensaje: &quot;Lo sentimos mucho, no se puede ingresar a la discoteca siendo menor de edad.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FAFF6B;" vertex="1" parent="1">
+          <mxGeometry x="195" y="550" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-17" value="Mostrar mensaje: &quot;¡Puedes ingresar a la discoteca!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FAFF6B;" vertex="1" parent="1">
+          <mxGeometry x="370" y="373.75" width="140" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-21" value="Fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mK9y2rGnFo_aOep1cBnS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mK9y2rGnFo_aOep1cBnS-17" target="mK9y2rGnFo_aOep1cBnS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
